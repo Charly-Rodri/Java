@@ -1,0 +1,25 @@
+//Pedir numero y determinar si es positivo o negativo
+
+package numeropositivoynegativo;
+
+import java.util.Scanner;
+
+public class NumeroPositivoyNegativo {
+
+    
+    public static void main(String[] args) {
+        
+        Scanner entrada = new Scanner (System.in);
+     
+        int n1;
+        
+        System.out.println("Ingrese numero 1");
+        n1 = entrada.nextInt();
+        
+        if (n1 < 0) 
+            System.out.println("el numero es NEGATIVO" + n1);
+        
+        else 
+            System.out.println("el numero es POSITIVO");   
+    }   
+}
